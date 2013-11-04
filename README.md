@@ -25,7 +25,7 @@ Fix the if condition directly:
 
 * org.springframework.social.security.SocialAuthenticationProvider
 
-#### Google App Engine & Maven Configuration
+#### Maven Configuration for Google App Engine
 
 * Add library and plugin dependencies
 
