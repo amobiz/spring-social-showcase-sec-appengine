@@ -1,7 +1,5 @@
-spring-social-showcase-gae
-==========================
-
 Sample of using Spring Social on Google App Engine
+==================================================
 
 #### Forks from:
 
@@ -23,7 +21,7 @@ Changes the references to non-serializable objects transient:
 
 * org.springframework.social.connect.web.ProviderSignInAttempt
 * org.springframework.social.security.SocialAuthenticationToken
- 
+
 Fix the if condition directly:
 
 * org.springframework.social.security.SocialAuthenticationProvider
@@ -37,4 +35,18 @@ Fix the if condition directly:
 * Enable session
 
   [Java Application Configuration with appengine-web.xml - Enabling sessions](https://developers.google.com/appengine/docs/java/config/appconfig#Enabling_Sessions)
+
+Spring Social Showcase Security
+===============================
+This sample app demonstrates many of the capabilities of the Spring Social project, including:
+* Connect to Facebook
+* Connect to Twitter
+* Sign in using Facebook
+* Sign in using Twitter
+* Using SocialAuthenticationFilter for provider-signin instead of ProviderSignInController
+
+To run, simply import the project into your IDE and deploy to a Servlet 2.5 or > container such as Tomcat 6 or 7.
+Access the project at http://localhost:8080/spring-social-showcase
+
+Discuss at forum.springsource.org and collaborate with the development team at jira.springframework.org/browse/SOCIAL.
 
