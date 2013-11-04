@@ -1,5 +1,4 @@
-Sample of using Spring Social on Google App Engine
-==================================================
+## Sample of using Spring Social on Google App Engine
 
 #### Forks from:
 
@@ -15,7 +14,7 @@ Sample of using Spring Social on Google App Engine
 
 [SocialAuthenticationProvider should support multiple connections](https://jira.springsource.org/browse/SOCIAL-402)
 
-#### Notes on my dirty hack:
+#### Notes on my dirty hacks:
 
 Changes the references to non-serializable objects transient:
 
@@ -36,8 +35,8 @@ Fix the if condition directly:
 
   [Java Application Configuration with appengine-web.xml - Enabling sessions](https://developers.google.com/appengine/docs/java/config/appconfig#Enabling_Sessions)
 
-Spring Social Showcase Security
-===============================
+### Instructions (Spring Social Showcase Security)
+
 This sample app demonstrates many of the capabilities of the Spring Social project, including:
 * Connect to Facebook
 * Connect to Twitter
